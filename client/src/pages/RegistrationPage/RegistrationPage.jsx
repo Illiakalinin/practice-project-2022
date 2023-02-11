@@ -7,7 +7,7 @@ import styles from './RegistrationPage.module.sass';
 import { clearAuthError } from '../../store/slices/authSlice';
 import CONSTANTS from '../../constants';
 
-const { PHONE_NUMBER } = CONSTANTS.PHONE_NUMBER;
+const { TEL_NUMBER } = CONSTANTS.COMPANY_CONTACTS;
 
 const RegistrationPage = props => {
   props.clearError();
@@ -111,7 +111,7 @@ const RegistrationPage = props => {
               Check out our <span className={styles.orangeSpan}>FAQs</span> or
               send us a<span className={styles.orangeSpan}>message</span>. For
               assistance with launching a contest, you can also call us at{' '}
-              {PHONE_NUMBER} or schedule a
+              {TEL_NUMBER} or schedule a
               <span className={styles.orangeSpan}>Branding Consultation</span>
             </div>
           </div>

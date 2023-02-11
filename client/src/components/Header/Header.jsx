@@ -7,7 +7,7 @@ import { clearUserStore } from '../../store/slices/userSlice';
 import { getUser } from '../../store/slices/userSlice';
 import Logo from '../../components/Logo';
 
-const { PHONE_NUMBER } = CONSTANTS.PHONE_NUMBER;
+const { TEL_NUMBER } = CONSTANTS.COMPANY_CONTACTS;
 
 class Header extends React.Component {
   componentDidMount () {
@@ -111,12 +111,12 @@ class Header extends React.Component {
         </div>
         <div className={styles.loginSignnUpHeaders}>
           <div className={styles.numberContainer}>
-            <a href={`tel: ${PHONE_NUMBER}`}>
+            <a href={`tel:${TEL_NUMBER}`}>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}phone.png`}
                 alt='phone'
               />
-              <span>{`${PHONE_NUMBER}`}</span>
+              <span>{TEL_NUMBER}</span>
             </a>
           </div>
           <div className={styles.userButtonsContainer}>

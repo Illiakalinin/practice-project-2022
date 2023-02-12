@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+// import {Far Fa-Lightbulb} from
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -250,6 +251,18 @@ const Home = props => {
                 DASHBOARD
               </Link>
             </div>
+            <div className={styles.readyToStartContainer}>
+              <div className={styles.articleToStartWrapper}>
+                <p>
+                  Ready to get started? Launch a contest and start receiving
+                  submissions instantly
+                </p>
+                <Link to='startContest'>
+                  <i class='fas fa-lightbulb'>Start A Contest</i>
+                </Link>
+              </div>
+            </div>
+
             <div className={styles.blueContainer}>
               <h2 className={styles.whiteUnderline}>What our customers say</h2>
               <SlideBar

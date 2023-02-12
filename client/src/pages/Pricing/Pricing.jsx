@@ -1,5 +1,5 @@
 import React from 'react';
-import pricingList from './pricingList.json';
+import prices from './pricingList.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ function Pricing () {
     <div>
       <Header />
       <ul>
-        {pricingList.map(p => (
+        {prices.map(p => (
           <li>
             <article>
               <div style={{ border: `10px solid ${p.color}` }}>

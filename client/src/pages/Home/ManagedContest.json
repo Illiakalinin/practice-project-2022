@@ -1,0 +1,22 @@
+[
+  {
+    "iconSrc": "/staticImages/managed_contest/mc-icon1.svg",
+    "title": "Consultant Led",
+    "body": "Work one-on-one with a Squadhelp branding consultant."
+  },
+  {
+    "iconSrc": "/staticImages/managed_contest/mc-icon2.svg",
+    "title": "Crowd Powered",
+    "body": "Work with our top rated Creatives and receive a huge breadth of ideas."
+  },
+  {
+    "iconSrc": "/staticImages/managed_contest/mc-icon3.svg",
+    "title": "Trademark Reports",
+    "body": "Comprehensive trademark screening on your shortlisted names."
+  },
+  {
+    "iconSrc": "/staticImages/managed_contest/mc-icon4.svg",
+    "title": "Audience Testing",
+    "body": "Get rapid feedback from real people on your shortlist of business names."
+  }
+]

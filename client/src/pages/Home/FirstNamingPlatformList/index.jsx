@@ -7,7 +7,9 @@ function FirstNamingPlatformList () {
   return (
     <>
       <div className={styles.namingPlatformListContainer}>
-        <h2>World's #1 Naming Platform</h2>
+        <h2 className={styles.namingPlatformTitle}>
+          World's #1 Naming Platform
+        </h2>
         <ul className={styles.namingPlatformList}>
           {firstNamingPlatformCards.map((c, i) => (
             <li key={i}>
